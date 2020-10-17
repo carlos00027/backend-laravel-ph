@@ -24,5 +24,8 @@ Route::group(["middleware"=>"api"],function(){
     Route::post("auth/login","AuthController@login");
 
     Route::get("roles","RolesController@index");
+
     Route::get("usuarios","UsuariosController@index");
+    Route::put("usuarios/{id}","UsuariosController@update");
+    Route::delete("usuarios/{id}","UsuariosController@destroy");
 });
