@@ -28,4 +28,6 @@ Route::group(["middleware"=>"api"],function(){
     Route::get("usuarios","UsuariosController@index");
     Route::put("usuarios/{id}","UsuariosController@update");
     Route::delete("usuarios/{id}","UsuariosController@destroy");
+
+    Route::post("clientes","ClientesController@store");
 });
