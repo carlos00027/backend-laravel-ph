@@ -13,6 +13,8 @@ class CreateMedicamentosTable extends Migration
      */
     public function up()
     {
+        Schema::dropIfExists('medicamentos');
+
         Schema::create('medicamentos', function (Blueprint $table) {
             $table->id();
             $table->string("expediente");
