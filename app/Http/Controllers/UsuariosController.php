@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\User;
-use Illuminate\Cache\RetrievesMultipleKeys;
 use Illuminate\Http\Request;
 
 class UsuariosController extends Controller
