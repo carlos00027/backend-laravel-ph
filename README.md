@@ -19,6 +19,13 @@ ejecutar las migraciones para construir las tablas
 php artisan migrate
 ```
 
+## generar token para JWT 
+
+```
+php artisan jwt:secret
+```
+
+
 ## Ejecutar servidor de pruebas de artisan
 
 ```
