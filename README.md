@@ -15,3 +15,8 @@ php artisan migrate
 ```
 php artisan serve
 ```
+
+## Importar tabla medicamentos
+
+Es necesario importar la tabla de medicamentos, se preparo archivo .csv database/backup/codigom.csv
+
