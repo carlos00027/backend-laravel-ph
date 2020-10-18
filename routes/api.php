@@ -29,5 +29,10 @@ Route::group(["middleware"=>"api"],function(){
     Route::put("usuarios/{id}","UsuariosController@update");
     Route::delete("usuarios/{id}","UsuariosController@destroy");
 
+    Route::get("clientes","ClientesController@index");
     Route::post("clientes","ClientesController@store");
+    Route::delete("clientes/{id}","ClientesController@destroy");
+    Route::put("clientes/{id}","ClientesController@update");
+
+    Route::get("medicamentos","MedicamentosController@index");
 });
