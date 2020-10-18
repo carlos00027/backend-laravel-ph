@@ -10,7 +10,7 @@ duplicar el archivo .env.example por .env setear credenciales de acceso a la bas
 ```
 php artisan migrate
 ```
-## ejecutar servidor de pruebas de artisan
+## Ejecutar servidor de pruebas de artisan
 
 ```
 php artisan serve
